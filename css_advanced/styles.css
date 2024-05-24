@@ -1,0 +1,19 @@
+header {
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding-top: 1rem;
+}
+
+button {
+    background-color: #C271FF;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    border-radius: 2rem;
+    height: 2.75rem;
+    width: 10.125rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border: none;
+}
