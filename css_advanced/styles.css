@@ -142,7 +142,7 @@ body {
 
 .column {
     display: flex;
-    flex-direction: coluheight: 1080px;mn;
+    flex-direction: column;
 }
 
 .column-wide {
@@ -165,7 +165,7 @@ body {
 }
 
 header {
-    
+    height: 1080px;
     background-image: url("./images/background.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -173,9 +173,9 @@ header {
 
 footer {
     display: flex;
-    padding: 40px 10%;
     height: 250px;
     background-color: #071629;
+    padding: 40px 10%;
 }
 
 a:link {
@@ -195,21 +195,21 @@ a:active {
 }
 
 .avatars {
-    justify-content: space-around;
     margin-top: 40px;
     width: 80%;
     align-self: center;
+    justify-content: space-around;
 }
 
 .avatar {
-    justify-content: center;
     color: #FFFFFF;
+    justify-content: center;
     text-align: center;
 }
 
 .avatar-name {
-    font-size: 18px;
     font-weight: 900;
+    font-size: 18px;
     margin-bottom: 5px;
 }
 
@@ -220,13 +220,13 @@ a:active {
 }
 
 .btn {
+    display: flex;
+    width: 13%;
+    height: 44px;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
     border-style: none;
-    display: flex;
-    width: 13%;
-    height: 44px;
     background: #C271FF;
     color: #FFFFFF;
     font-family: 'source_sans_prosemibold';
@@ -234,8 +234,8 @@ a:active {
 }
 
 .header-menu {
-    justify-content:space-around;
     display: flex;
+    justify-content:space-around;
     width: 90%;
     height: 30px;
     margin: 1.5em 2em;
@@ -248,8 +248,8 @@ a:active {
 
 .header-hero {
     display: flex;
-    align-items: center;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .learn {
@@ -271,16 +271,16 @@ a:active {
 
 .nav-menu {
     display: flex;
+    width: 15%;
     justify-content:space-between;
     align-content: center;
-    width: 15%;
 }
 
-.nav-menu-link {
+.nav-menu-item {
     font-size: 15px;
+    color: #FFFFFF;
     font-weight: 700;
     align-self: center;
-    color: #FFFFFF;
 }
 
 .nav-spacer {
@@ -292,8 +292,8 @@ a:active {
     height:380px;
     background-color: #C271FF;
     color: #FFFFFF;
-    font-size: 22px;
     align-content: center;
+    font-size: 22px;
 }
 
 .quote {
@@ -320,10 +320,9 @@ a:active {
 }
 
 .videos {
-   color: #071629;
-   margin: 5%;
-   height: 450px;
- 
+    margin: 5%;
+    height: 450px;
+    color: #071629;
 }
 
 .video-title, .video-listings {
@@ -332,8 +331,8 @@ a:active {
 
 .video-header {
     font-family: 'source_sans_prolight';
-    font-size: 32px;
     font-weight: lighter;
+    font-size: 32px;
 }
 
 .video-header span {
@@ -370,17 +369,17 @@ a:active {
 
 .thumbnail-container::after {
     content: url('./images/play.png');
-    position: absolute;
     z-index: 20;
+    position: absolute;
     right: 38%;
     top: 27%;
 }
 
 .author-section {
-    justify-content: flex-start;
-    align-items: center;
     height: 30px;
     margin-bottom: 15px;
+    justify-content: flex-start;
+    align-items: center;
     font-size: 12px;
     color: #C271FF;
 
@@ -391,12 +390,12 @@ a:active {
 }
 
 .rating-section {
-    justify-content: space-between;
+    width: 90%;
     align-items: center;
+    justify-content: space-between;
     color: #C271FF;
     font-size: 14px;
     font-weight: 600;
-    width: 90%;
     opacity: 100%;
 }
 
@@ -405,10 +404,9 @@ a:active {
 }
 
 .membership-section {
-    padding-top: 25px;
     height: 502px;
     background-color: #071629;
-    
+    padding-top: 25px;
 }
 
 .membership-row {
@@ -440,15 +438,15 @@ a:active {
 }
 
 .membership-column p {
-    text-align: center;
     line-height: 26px;
     font-size: 14px;
     font-weight: 400;
+    text-align: center;
 }
 
 .membership-heading {
-    font-family: 'source_sans_prolight';
     color: #FFFFFF;
+    font-family: 'source_sans_prolight';
     font-weight: 300;
     font-size: 32px;
 }
@@ -464,11 +462,10 @@ a:active {
 }
 
 .faq-header {
-    justify-content: center;
     font-size: 60px;
     font-family: 'source_sans_prolight';
+    justify-content: center;
 }
-
 .faq-header h1 {
     font-weight: 300;
 }
@@ -483,7 +480,7 @@ a:active {
 }
 
 .faq-container {
-justify-content: space-around;
+    justify-content: space-around;
 }
 
 .faq-content {
@@ -521,30 +518,28 @@ justify-content: space-around;
 
 .cr-row {
     justify-content: center;
-    font-size: 12px;
     color: #FFFFFF;
     opacity: 35.17%;
+    font-size: 12px;
 }
 
 .tagline {
-    justify-content: center;
     font-family: 'source_sans_prosemibold';
-    color: #FFFFFF;
     font-size: 115px;
     margin-bottom: 10px;
     margin-top: 120px;
-    
-    
+    color: #FFFFFF;
+    justify-content: center;
 }
 
 .sub-tagline {
-    display: flex;
-    justify-content: space-around;
-    font-family: 'source_sans_probold';
     color: #FFFFFF;
     font-size: 16px;
     margin-top: 0px;
     margin-bottom: 40px;
+    font-family: 'source_sans_probold';
+    display: flex;
+    justify-content: space-around;
     width: 25%;
 }
 
