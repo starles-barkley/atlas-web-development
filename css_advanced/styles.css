@@ -1,14 +1,11 @@
+/* Font Faces */
 @font-face {
     font-family: 'source_sans_proSBdIt';
     src: url('sourcesanspro-semiboldit-webfont.woff2') format('woff2'),
          url('sourcesanspro-semiboldit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'source_sans_prosemibold';
@@ -16,11 +13,7 @@
          url('sourcesanspro-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'source_sans_proregular';
@@ -28,11 +21,7 @@
          url('sourcesanspro-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'source_sans_prolight_italic';
@@ -40,11 +29,7 @@
          url('sourcesanspro-lightit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'source_sans_prolight';
@@ -52,11 +37,7 @@
          url('sourcesanspro-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'source_sans_proitalic';
@@ -64,11 +45,7 @@
          url('sourcesanspro-it-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'source_sans_proXLtIt';
@@ -76,11 +53,7 @@
          url('sourcesanspro-extralightit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'source_sans_proextralight';
@@ -88,11 +61,7 @@
          url('sourcesanspro-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'source_sans_probold_italic';
@@ -100,11 +69,7 @@
          url('sourcesanspro-boldit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'source_sans_probold';
@@ -112,11 +77,7 @@
          url('sourcesanspro-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'source_sans_problack_italic';
@@ -124,11 +85,7 @@
          url('sourcesanspro-blackit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'source_sans_problack';
@@ -136,7 +93,6 @@
          url('sourcesanspro-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 html {
@@ -145,6 +101,10 @@ html {
 
 body {
     margin: auto;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
 }
 
 .container {
@@ -178,7 +138,6 @@ body {
 header {
     height: 1080px;
     background-image: url("./images/background.png");
-    background-image: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -188,22 +147,6 @@ footer {
     height: 250px;
     background-color: #071629;
     padding: 40px 10%;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
 }
 
 .avatars {
@@ -247,7 +190,7 @@ a:active {
 
 .header-menu {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     width: 90%;
     height: 30px;
     margin: 1.5em 2em;
@@ -284,7 +227,7 @@ a:active {
 .nav-menu {
     display: flex;
     width: 15%;
-    justify-content:space-between;
+    justify-content: space-between;
     align-content: center;
 }
 
@@ -301,7 +244,7 @@ a:active {
 
 .quotes {
     padding: 0 20% 0 10%;
-    height:380px;
+    height: 380px;
     background-color: #C271FF;
     color: #FFFFFF;
     align-content: center;
@@ -316,7 +259,7 @@ a:active {
     margin-right: 5%;
 }
 
-.quote-text blockquote{
+.quote-text blockquote {
     margin: 0;
     line-height: 150%;
 }
@@ -394,7 +337,6 @@ a:active {
     align-items: center;
     font-size: 12px;
     color: #C271FF;
-
 }
 
 .author-section div {
@@ -478,6 +420,7 @@ a:active {
     font-family: 'source_sans_prolight';
     justify-content: center;
 }
+
 .faq-header h1 {
     font-weight: 300;
 }
@@ -524,6 +467,7 @@ a:active {
 .sm-column {
     width: 12%;
 }
+
 .sm-links-row {
     justify-content: space-around;
 }
