@@ -312,13 +312,13 @@ footer {
     content: url('./images/play.png');
     z-index: 20;
     position: absolute;
-    right: 38%;
-    top: 27%;
+    right: 40%;
+    top: 30%;
 }
 
 .author-section {
-    height: 30px;
-    margin-bottom: 15px;
+    height: 35px;
+    margin-bottom: 20px;
     justify-content: flex-start;
     align-items: center;
     font-size: 12px;
