@@ -296,7 +296,7 @@ footer {
 }
 
 .video-description {
-    opacity: 50.16%;
+    opacity: 50%;
     font-size: 14px;
 }
 
@@ -325,14 +325,9 @@ footer {
     color: #C271FF;
 }
 
-.author-section div {
-    margin: 0 3%;
-}
-
 .rating-section {
     width: 90%;
     align-items: center;
-    justify-content: space-between;
     color: #C271FF;
     font-size: 14px;
     font-weight: 600;
@@ -344,7 +339,7 @@ footer {
 }
 
 .membership-section {
-    height: 502px;
+    height: 500px;
     background-color: #071629;
     padding-top: 25px;
 }
@@ -362,12 +357,12 @@ footer {
 }
 
 .membership-row .btn {
-    width: 10%;
+    width: 15%;
     margin-top: 50px;
 }
 
 .membership-column {
-    width: 14%;
+    width: 16%;
     color: #FFFFFF;
 }
 
@@ -380,14 +375,14 @@ footer {
 .membership-column p {
     line-height: 26px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 350;
     text-align: center;
 }
 
 .membership-heading {
     color: #FFFFFF;
     font-family: 'source_sans_prolight';
-    font-weight: 300;
+    font-weight: 350;
     font-size: 32px;
 }
 
@@ -398,7 +393,7 @@ footer {
 
 .faq {
     color: #071629;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .faq-header {
@@ -412,7 +407,7 @@ footer {
 }
 
 .faq-row {
-    width: 44%;
+    width: 45%;
     justify-content: center;
 }
 
@@ -436,7 +431,7 @@ footer {
 
 .faq-a {
     line-height: 24px;
-    opacity: 50.16%;
+    opacity: 50%;
     font-size: 14px;
 }
 
@@ -475,13 +470,12 @@ footer {
 }
 
 .sub-tagline {
+    display: flex;
     color: #FFFFFF;
     font-size: 16px;
     margin-top: 0px;
     margin-bottom: 40px;
     font-family: 'source_sans_probold';
-    display: flex;
-    justify-content: space-around;
     width: 25%;
 }
 
